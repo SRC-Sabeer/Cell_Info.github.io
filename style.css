@@ -72,12 +72,25 @@
         height: 200px;
         width: auto;
     }
+    .timers {
+        font-size: 16px !important;
+        padding: 4px;
+        border-radius: 5px;
+    }
+
+    .colon {
+        font-size: 19px !important;
+        font-weight: bold !important;
+        margin-right: 1% !important;
+        margin-bottom: 1% !important;
+
+    }
 }
 
 @media only screen and (min-width: 375px) and (max-width:425px) {
     .brands a img {
-        width: 47px;
-        height: 47px;
+        width: 43px;
+        height: 43px;
         border-radius: 50px;
     }
 
@@ -90,7 +103,9 @@
     .our-goal {
         margin-top: 9% !important;
     }
-
+    body {
+        overflow-x: hidden !important; 
+      }
     .brands a {
         margin-left: 1.5%;
         margin-top: 2%;
@@ -142,19 +157,6 @@
         margin: 9% 0 5% 0;
     }
 
-    .timers {
-        font-size: 20px !important;
-        padding: 4px;
-        border-radius: 5px;
-    }
-
-    .colon {
-        font-size: 19px !important;
-        font-weight: bold !important;
-        margin-right: 1% !important;
-        margin-bottom: 1% !important;
-
-    }
 
     .btn {
         padding: 0px !important;
@@ -166,6 +168,20 @@
     .testmonial_slider_area {
         margin-left: 6% !important;
         margin-top: -4% !important;
+    }
+    .timers {
+        font-size: 14px !important;
+        margin-top: 0%;
+        padding: 6px !important;
+        border-radius: 5px;
+    }
+
+    .colon {
+        font-size: 21px !important;
+        font-weight: bold !important;
+        margin-right: 1.7% !important;
+        margin-top: .2% !important;
+
     }
 }
 
@@ -428,18 +444,18 @@
     .services-section>div {
         margin: 9% 0 5% 0;
     }
-
     .timers {
-        font-size: 20px !important;
-        padding: 4px;
+        font-size: 13px !important;
+        margin-top: 0%;
+        padding: 6px !important;
         border-radius: 5px;
     }
 
     .colon {
-        font-size: 28px !important;
+        font-size: 20px !important;
         font-weight: bold !important;
-        margin-right: 1% !important;
-        margin-top: 1% !important;
+        margin-right: 1.7% !important;
+        margin-top: 1.2% !important;
 
     }
 
@@ -803,15 +819,16 @@
     }
 
     .timers {
-        font-size: 16px !important;
-        padding: 4px;
-        border-radius: 5px;
+        font-size: 12px !important;
+        padding: 4px !important;
+        border-radius: 1px;
+        margin-top: 0%;
     }
 
     .colon {
-        font-size: 19px !important;
+        font-size: 18px !important;
         font-weight: bold !important;
-        margin-right: 1% !important;
+        margin-right: 1.5% !important;
         margin-bottom: 1% !important;
 
     }
@@ -981,9 +998,9 @@
 
     .review-slider .owl-dot {
         display: inline-block;
-        height: 14px !important;
-        width: 14px !important;
-        background-color: #fff !important;
+        height: 10px !important;
+        width: 10px !important;
+        background-color: rgb(170, 170, 170) !important;
         opacity: .8;
         margin: 0 10px;
         border-radius: 50%;
@@ -1536,15 +1553,15 @@ footer li {
 }
 
 .timers {
-    font-size: 20px !important;
+    font-size: 20px;
     padding: 10px;
     border-radius: 5px;
 }
 
 .colon {
-    font-size: 29px !important;
-    font-weight: bold !important;
-    margin-right: 2% !important;
+    font-size: 29px;
+    font-weight: bold ;
+    margin-right: 2% ;
     margin-top: 0.2% !important;
 
 }
